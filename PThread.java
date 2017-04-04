@@ -2,7 +2,7 @@ package threadpool;
 
 public class PThread extends Thread 
 {
-	//线程池
+    //线程池
     private ThreadPool pool;
     //任务
     private Runnable target;   
