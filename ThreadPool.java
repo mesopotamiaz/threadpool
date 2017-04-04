@@ -7,7 +7,7 @@ public class ThreadPool
 {
     private static ThreadPool instance = null;
 
-    //空闲的线程队列
+    //空闲线程队列
     private List<PThread> idleThreads;
     //已有的线程总数
     private int threadCounter;
