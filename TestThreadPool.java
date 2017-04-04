@@ -2,11 +2,6 @@ package threadpool;
 
 import org.junit.Test;
 
-/**
- * 使用简单线程池和直接开启线程的差别
- * @author Administrator
- *
- */
 public class TestThreadPool {
 	public class MyThread implements Runnable{
 		protected String name;
